@@ -397,7 +397,7 @@ progress {
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-1 {
@@ -405,7 +405,7 @@ progress {
 
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-2 {
@@ -413,7 +413,7 @@ progress {
 
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-3 {
@@ -421,7 +421,7 @@ progress {
 
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-4 {
@@ -429,7 +429,7 @@ progress {
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-5 {
@@ -437,7 +437,7 @@ progress {
 
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1; }
   @media (min-width: 1200px) {
     .display-6 {
@@ -2267,7 +2267,7 @@ textarea.form-control-lg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.42rem 1rem;
+  padding: 0.42rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -9396,6 +9396,9 @@ svg text.text-white {
 svg text.text-white-50 {
   fill: rgba(255, 255, 255, 0.5) !important; }
 
+html {
+  font-size: 13px; }
+
 h4, .h4, h5, .h5, h6, .h6,
 .h4, .h5, .h6 {
   font-weight: bolder; }
@@ -9428,8 +9431,9 @@ h4, .h4, h5, .h5, h6, .h6,
   .badge.rounded-pill {
     padding: .25rem .5rem .15rem .5rem; }
   .badge.bg-secondary {
-    color: black;
     background-color: #cdd5db !important; }
+  .badge.bg-light, .badge.bg-secondary, .badge.bg-warning {
+    color: black; }
 
 .btn-secondary {
   color: #000;
