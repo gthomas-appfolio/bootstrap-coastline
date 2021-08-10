@@ -521,6 +521,139 @@
             </div>
 
             <div class="bs-component">
+              <h3>Default</h3>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="bs-component">
+              <h3>Striped</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="bs-component">
+              <h3>Bordered</h3>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="bs-component">
+              <h3>Borderless</h3>
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="bs-component">
+              <h3>Hover</h3>
               <table class="table table-striped table-hover">
                 <thead>
                   <tr>
@@ -559,9 +692,9 @@
               </table>
             </div><!-- /example -->
 
-            <h2 id="table_colors">Table Colors</h2>
             <div class="bs-component">
-              <table class="table table-hover">
+              <h3 id="table_colors">Colors</h3>
+              <table class="table table-hover table-borderless">
                 <thead>
                   <tr>
                     <th scope="col">Type</th>
@@ -655,22 +788,22 @@
               <form>
                 <fieldset>
                   <legend>Legend</legend>
-                  <div class="form-group row">
+                  <div class="mb-3 row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
                     </div>
                   </div>
-                  <div class="form-group">
+                  <div class="mb-3">
                     <label class="col-form-label" for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
-                  <div class="form-group">
+                  <div class="mb-3">
                     <label class="col-form-label" for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                   </div>
-                  <div class="form-group">
+                  <div class="mb-3">
                     <label class="col-form-label" for="exampleSelect1">Example select</label>
                     <select class="form-select" id="exampleSelect1">
                       <option>1</option>
@@ -680,7 +813,7 @@
                       <option>5</option>
                     </select>
                   </div>
-                  <div class="form-group">
+                  <div class="mb-3">
                     <label class="col-form-label" for="exampleSelect2">Example multiple select</label>
                     <select multiple class="form-control" id="exampleSelect2">
                       <option>1</option>
@@ -690,16 +823,15 @@
                       <option>5</option>
                     </select>
                   </div>
-                  <div class="form-group">
+                  <div class="mb-3">
                     <label class="col-form-label" for="exampleTextarea">Example textarea</label>
                     <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                   </div>
-                  <div class="form-group">
-                    <label class="col-form-label" for="exampleInputFile">File input</label>
-                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile">
                   </div>
-                  <fieldset class="form-group">
+                  <fieldset class="mb-3">
                     <legend>Radio buttons</legend>
                     <div class="form-check">
                       <label class="form-check-label">
@@ -720,7 +852,7 @@
                       </label>
                     </div>
                   </fieldset>
-                  <fieldset class="form-group">
+                  <fieldset class="mb-3">
                     <legend>Checkboxes</legend>
                     <div class="form-check">
                       <label class="form-check-label">
@@ -743,50 +875,50 @@
           <div class="col-lg-4 offset-lg-1">
 
             <form class="bs-component">
-              <div class="form-group">
+              <div class="mb-3">
                 <fieldset disabled>
                   <label class="col-form-label" for="disabledInput">Disabled input</label>
                   <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
                 </fieldset>
               </div>
 
-              <div class="form-group">
+              <div class="mb-3">
                 <fieldset>
                   <label class="col-form-label" for="readOnlyInput">Readonly input</label>
                   <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
                 </fieldset>
               </div>
 
-              <div class="form-group has-success">
+              <div class="mb-3 has-success">
                 <label class="col-form-label" for="inputSuccess1">Valid input</label>
                 <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
                 <div class="valid-feedback">Success! You've done it.</div>
               </div>
 
-              <div class="form-group has-danger">
+              <div class="mb-3 has-danger">
                 <label class="col-form-label" for="inputDanger1">Invalid input</label>
                 <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
                 <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
               </div>
 
-              <div class="form-group">
+              <div class="mb-3">
                 <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
                 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
               </div>
 
-              <div class="form-group">
+              <div class="mb-3">
                 <label class="col-form-label" for="inputDefault">Default input</label>
                 <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
               </div>
 
-              <div class="form-group">
+              <div class="mb-3">
                 <label class="col-form-label col-form-label-sm" for="inputSmall">Small input</label>
                 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" id="inputSmall">
               </div>
 
-              <div class="form-group">
+              <div class="mb-3">
                 <label class="col-form-label">Input addons</label>
-                <div class="form-group">
+                <div class="mb-3">
                   <div class="input-group mb-3">
                     <span class="input-group-text">$</span>
                     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
